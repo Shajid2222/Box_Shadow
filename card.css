@@ -1,0 +1,61 @@
+.card{
+    
+    margin: 10px;
+    width: 613px;
+    border: 2px solid yellow;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 15px red;
+    background-color: grey;
+    padding: 10px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+}
+
+.card:hover{
+    border-color: grey;
+}
+.img{
+    height: 600px;
+    width: 600px;
+}
+
+.card-body p{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.card-body p:hover{
+    color: red;
+    text-shadow: 5px;
+}
+
+.bio{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+
+}
+
+.bio h1{
+    padding: 10px;
+    font-size: 100px;
+    border: 8px solid red;
+    border-radius: 25px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    text-shadow: 30px;
+}
+
+.bio h1:hover{
+    color: red;
+    text-shadow: 30px;
+    border-color: yellow;
+}
+
+.bio ul li{
+    font-size: 30px;
+}
